@@ -98,7 +98,7 @@ hr {
 
 
 .hero {
-    padding: 3rem;
+    padding: 1rem;
     padding-top: 3rem;
     text-align: center;
 }
@@ -108,12 +108,19 @@ hr {
     width: 500px;
     display: block;
     margin: auto;
+    height: 250px;
 }
-.hero .hero-blog-img {
+.hero.hero-blog-img {
     max-width: 80%;
     width: 250px;
     display: block;
     margin: auto;
+}
+
+.blog-img{
+    display: block;
+    margin: auto;
+    height: 300px;
 }
 
 .hero .hero-heading {
@@ -162,4 +169,11 @@ hr {
 
 .ol {
     padding: 5rem;
+}
+
+content{
+    display: block;
+    width: 90%;;
+    margin: auto;
+    text-align: justify;
 }
